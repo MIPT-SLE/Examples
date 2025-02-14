@@ -1,5 +1,3 @@
 #include "Foo.hpp"
 
-void bar() {
-    std::cout << "bar" << std::endl;
-}
+void bar() { std::cout << "bar" << std::endl; }

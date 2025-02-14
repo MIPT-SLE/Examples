@@ -1,10 +1,9 @@
-#include "Bar.hpp"
-#include "Foo.hpp"
 #include "Foobar.hpp"
 
-int main() {
+#include "Bar.hpp"
+#include "Foo.hpp"
+
+void foobar() {
     foo();
     bar();
-    foobar();
-    return 0;
 }
